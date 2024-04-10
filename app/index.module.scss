@@ -1,5 +1,5 @@
 .main {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,5 +15,9 @@
     justify-content: center;
     align-items: center;
     text-align: justify;
+
+    .audio {
+      padding-bottom: 20px;
+    }
   }
 }

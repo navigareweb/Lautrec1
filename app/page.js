@@ -5,12 +5,21 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Image
-        src={"/Header.jpeg"}
-        width={1200}
-        height={300}
+        src={"/newsletter_grafiche_Lautrec.jpg"}
+        width={600}
+        height={600}
         className={styles.img}
+        alt="imgLautrec"
       ></Image>
       <div className={styles.description}>
+        <audio
+          controls
+          src="/HENRI-DE-TOULOUSE-LAUTREC-1.mp3"
+          className={styles.audio}
+        >
+          Your browser does not support the
+          <code>audio</code> element.
+        </audio>
         <p>
           Toulouse-Lautrec has always been considered one of the most iconic
           figures of the Belle Époque, as well as the artist who disrupted the
@@ -39,10 +48,6 @@ export default function Home() {
           to show Toulouse-Lautrec's attention to all the deepest and most
           private aspects of the human, regardless of gender or social status.{" "}
         </p>
-        <audio controls src="/HENRI-DE-TOULOUSE-LAUTREC-1.mp3">
-          Your browser does not support the
-          <code>audio</code> element.
-        </audio>
       </div>
     </main>
   );
