@@ -12,6 +12,8 @@ export default function Home() {
         alt="imgLautrec"
       ></Image>
       <div className={styles.description}>
+        <h3 className={styles.text}>HENRI DE TOULOUSE-LAUTREC.</h3>
+        <h5 className={styles.text}>THE WORLD OF THE CIRCUS AND MONTMARTRE</h5>
         <audio
           controls
           src="/HENRI-DE-TOULOUSE-LAUTREC-1.mp3"
@@ -20,7 +22,7 @@ export default function Home() {
           Your browser does not support the
           <code>audio</code> element.
         </audio>
-        <p>
+        <p className={styles.p}>
           Toulouse-Lautrec has always been considered one of the most iconic
           figures of the Belle Époque, as well as the artist who disrupted the
           world of advertising and conveyed the drift of industrial society
