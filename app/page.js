@@ -14,11 +14,7 @@ export default function Home() {
       <div className={styles.description}>
         <h3 className={styles.text}>HENRI DE TOULOUSE-LAUTREC.</h3>
         <h5 className={styles.text}>THE WORLD OF THE CIRCUS AND MONTMARTRE</h5>
-        <audio
-          controls
-          src="/HENRI-DE-TOULOUSE-LAUTREC-1.mp3"
-          className={styles.audio}
-        >
+        <audio controls src="/Lautrec1.mp3" className={styles.audio}>
           Your browser does not support the
           <code>audio</code> element.
         </audio>
